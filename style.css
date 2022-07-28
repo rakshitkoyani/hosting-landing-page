@@ -9,7 +9,7 @@
 .container-main {
   max-width: 1356px;
   margin: 40px auto;
-
+  background-color: #FDFEFF;
 }
 
 .nav-container {
@@ -151,6 +151,10 @@ ul.list-items {
   width: 100%;
   width: 305px;
   /* float: left; */
+}
+
+.box {
+  background-color: #fff;
 }
 
 .box img {
