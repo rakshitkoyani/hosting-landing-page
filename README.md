@@ -40,7 +40,7 @@ Go to the project directory
 
 ## Honest Time to finish the project
 
-It takes about 6 hours approximately to fully complete this project as i was new to HTML and CSS and I had to learn some new things like sibling selectors without class and different positioning.
+It takes me around 7.5 hours approximately to fully complete this project.
 
 ## Live link of the project
 
