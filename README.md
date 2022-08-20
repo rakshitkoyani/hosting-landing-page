@@ -9,6 +9,7 @@ This is full fronted part of one page website which provides hosting service. It
 - CSS3 - Cascading Spread Sheet
 
 ## Demo
+[hosting landing page.webm](https://user-images.githubusercontent.com/36806953/181440168-fd711358-6316-4bb2-942a-d65c3007fa04.webm)
 
 1. desktop
    ![desktop size](./images/desktop.png)
@@ -44,7 +45,7 @@ Go to the project directory
 
 ## Honest Time to finish the project
 
-It takes about 6 hours approximately to fully complete this project as i was new to HTML and CSS and I had to learn some new things like sibling selectors without class and different positioning.
+It takes me around 7.5 hours approximately to fully complete this project.
 
 ## Live link of the project
 
