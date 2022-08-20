@@ -80,6 +80,7 @@ ul.list-items {
 .banner-container {
   position: relative;
   display: flex;
+  gap: 50px;
   justify-content: space-between;
   margin-left: 10px;
   margin-top: 50px;
@@ -443,4 +444,100 @@ ul.footerlist li {
 div span img {
   margin-top: 20px;
   width: 30px;
+}
+
+@media screen and (max-width:480px) {
+
+  .grow-list,
+  nav button {
+    display: none;
+  }
+
+  nav i {
+    font-size: 2rem;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-content {
+    order: 5;
+  }
+
+  .banner-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner-container h1 {
+    font-size: 2rem;
+  }
+
+  .banner-container img {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .package-header h1 {
+    font-size: 2rem;
+  }
+
+  .package-main {
+    flex-direction: column;
+  }
+.package-box h2{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+  .customer-section h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .customer-section p {
+    margin-bottom: 30px;
+  }
+
+  .review-cotainer {
+    flex-direction: column;
+  }
+
+  .reviewbox {
+    width: 100%;
+  }
+
+  .register-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .register-section h1 {
+    font-size: 2rem;
+  }
+
+  .register-section p {
+    padding-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding:0 50px;
+  }
+
+  .footer-nav {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  .footer-nav div {}
+
+  .Social {
+    margin: 0 auto;
+  }
 }

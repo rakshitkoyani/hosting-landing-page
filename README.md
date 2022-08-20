@@ -10,6 +10,11 @@ This is full fronted part of one page website which provides hosting service. It
 
 ## Demo
 
+1. desktop
+   ![desktop size](./images/desktop.png)
+1. Mobile
+   ![mobile size](./images/mobile.png)
+
 ## Run Locally
 
 Clone the project
