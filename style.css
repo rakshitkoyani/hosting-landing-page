@@ -40,6 +40,14 @@ ul.list-items {
   font-weight: 500;
 }
 
+nav i {
+  font-size: 2rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
 .list-item.active {
   color: #1b1b1b;
 }
@@ -48,10 +56,6 @@ ul.list-items {
   /* opacity: 0.7; */
   color: #0ab2f6;
   cursor: pointer;
-}
-
-.button-group {
-  /* margin-left: -154px; */
 }
 
 .nav-button {
@@ -65,8 +69,6 @@ ul.list-items {
   -webkit-text-fill-color: transparent;
   background-color: transparent;
   border-radius: 10px;
-
-  /* margin-right: 50px; */
 }
 
 .nav-button:hover {
@@ -76,7 +78,6 @@ ul.list-items {
 }
 
 /* banner section */
-
 .banner-container {
   position: relative;
   display: flex;
@@ -219,6 +220,7 @@ ul.list-items {
 
 .package-main {
   display: flex;
+  gap: 20px;
 }
 
 .package-container .package-box {
@@ -453,8 +455,8 @@ div span img {
     display: none;
   }
 
-  nav i {
-    font-size: 2rem;
+  .menu-icon {
+    display: inline;
   }
 
   .banner-container {
